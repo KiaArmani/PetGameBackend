@@ -1,4 +1,4 @@
-# MediatonicTamagotchi
+# PetGameBackend
 An HTTP API which could be used to power a simple virtual pet game.
 
 - Users have animals 
@@ -27,7 +27,7 @@ MT_MONGODB_COLLECTION|Name of the collection that is being used|data
 - Clone the repository
 
 ```sh
-git clone https://github.com/KiaArmani/MediatonicTamagotchi.git
+git clone https://github.com/KiaArmani/PetGameBackend.git
 ```
 
 - Open a (Power)Shell / Terminal
@@ -39,7 +39,7 @@ dotnet build --configuration Release
 - Start the service
 
 ```sh
-dotnet run --project .\MediatonicTamagotchi\MediatonicTamagotchi.csproj
+dotnet run --project .\PetGameBackend\PetGameBackend.csproj
 ```
 
 ## Usage
@@ -56,7 +56,7 @@ Additionally, you can open the `index.html` to open the ReDoc documentation page
 ## Testing
 
 This project is using integration tests, therefore requires a real database to test against.
-In `MediatonicTamagotchi.XTests.Setup` you will have to fill in values for the above mentioned environment variables.
+In `PetGameBackend.XTests.Setup` you will have to fill in values for the above mentioned environment variables.
 
 ## Project Structure
 
