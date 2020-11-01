@@ -1,0 +1,5 @@
+﻿[*.cs]
+
+# CS0251: Indexing an array with a negative index
+# We use -1 for Mongo Array updates as index to the nested array.
+dotnet_diagnostic.CS0251.severity = none
