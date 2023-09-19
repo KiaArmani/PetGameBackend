@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+<Project Sdk="Microsoft.NET.Sdk.Web">
 
 	<PropertyGroup>
 		<TargetFramework>netcoreapp3.1</TargetFramework>
@@ -10,7 +10,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="MongoDB.Driver" Version="2.11.2" />
+		<PackageReference Include="MongoDB.Driver" Version="2.19.0" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="NSwag.AspNetCore" Version="13.8.2" />
 		<PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
